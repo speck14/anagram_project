@@ -11,7 +11,7 @@ function orderStr (str) {
     let newArr = removeWhiteSpace.split('');   
     //Alphabetizes the array, then reverts back to string
     let alphabetizedStr = newArr.sort().toString();
-    return alphabetizedStr ////semicolon here probably?
+    return alphabetizedStr;
 }
 
 function isAnagram (stringOne, stringTwo) {
@@ -33,7 +33,7 @@ function isAnagram (stringOne, stringTwo) {
     else {
         console.log('Input: whitespace only\nInvalid input, no characters to compare.\n');
     }
-};
+}
 
 isAnagram('This is a perfect match', 'This is a perfect match');
 isAnagram('So is THIS', 'so is this');
