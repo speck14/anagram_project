@@ -1,6 +1,7 @@
 /*Sources:
 -MDN array and string methods: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 -How to remove whitespace from within a string using RegEx: https://stackoverflow.com/a/61140195
+-Proofread: David King
 */
 
 // Convert strings to arrays in order to alphabetize and remove whitespace, then back to strings
